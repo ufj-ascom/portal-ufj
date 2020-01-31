@@ -1,0 +1,20 @@
+{
+  "name": "portal-ufj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-min": "node-sass src/ufj.scss build/ufj.min.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
