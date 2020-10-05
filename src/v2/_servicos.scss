@@ -1,0 +1,65 @@
+$fonte-padrao: 'Raleway';
+
+.servicos {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .titulo h1 {
+        text-decoration: none;
+        text-align: center;
+        font-size: 2.4em;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        font-family: $fonte-padrao;
+    }
+    h5 {
+        border-left: 5px solid var(--danger);
+        padding-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    div {
+        padding-top: 20px;
+        border: none;
+        text-align: center;
+        height: 100%;
+        & > div {
+            height: auto;
+            &:hover {
+                text-decoration: none;
+                opacity: 0.8;
+                background-color: #fff;
+                -webkit-filter: grayscale(70%);
+                filter: grayscale(70%);
+                transition: 0.3s;
+                .fas {
+                    color: #333;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+
+    .fas {
+        font-size: 40px;
+    }
+
+    .paratodos .fas {
+        color: #badc58;
+    }
+
+    .paraufj .fas {
+        color: #f0932b;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+        &:hover {
+            text-decoration: none;
+            color: #333;
+        }
+    }
+}

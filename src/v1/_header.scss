@@ -5,6 +5,7 @@ $color_4: #3498db;
 $color_5: #7f8c8d;
 $color_6: #e67e22;
 $font_family_1: "Raleway", sans-serif;
+$font_family_2: "Roboto", sans-serif;
 $background_color_1: #fff;
 
 #barra-brasil {
@@ -16,12 +17,17 @@ $background_color_1: #fff;
 }
 
 header {
-  font-family: $font_family_1 !important;
+  font-family: $font_family_2 !important;
   a {
     &:hover {
       color: $color_1;
       text-decoration: none;
     }
+  }
+  .menu_accessibility_component span.accessibility{
+    background: #fff;
+    border-radius: 2rem;
+    border-color: none;
   }
   .menu-bar-ufj {
     .menu-head {
@@ -62,7 +68,7 @@ header {
         color: $color_3;
         font-size: 18px;
         font-weight: bold;
-        font-family: $font_family_1;
+        font-family: $font_family_2;
       }
       > menu.submenu {
         list-style: none;
@@ -78,7 +84,7 @@ header {
       > li {
         > a {
           color: $color_5;
-          font-family: $font_family_1;
+          font-family: $font_family_2;
           &:before {
             content: " ";
             left: -12px;
@@ -102,8 +108,8 @@ header {
   .menu_component {
     menu {
       li {
-        padding: 5px 10px;
-        font-size: 15px;
+        padding: 0.3rem;
+        font-size: 0.9rem;
       }
     }
     position: static !important;
@@ -165,7 +171,10 @@ header {
     }
   }
   .ufj-logo {
-    margin-left: 20px;
+    margin-left: 20px;    
+    img{
+      height: 30px;
+    }
   }
   .main-header {
     z-index: 2;

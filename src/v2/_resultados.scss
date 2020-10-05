@@ -1,0 +1,25 @@
+#content .news_list_container .news-list ul.pagination {
+    text-align: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    li.page {
+        display: inline-block;
+        list-style: none;
+        margin: 0 8px;
+        margin: 15px 8px;
+        a {
+            width: 11px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: #fff;
+            border-radius: 1px solid #333;
+            padding: 9px 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 0.9em;
+            letter-spacing: normal;
+        }
+    }
+}

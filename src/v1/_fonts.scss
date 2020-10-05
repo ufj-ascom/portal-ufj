@@ -1,0 +1,25 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800&display=swap";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900";
+
+$font-family-1: "Raleway", sans-serif;
+$font-familiy-2: "Roboto", sans-serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-family-1;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+p {
+	font-family: $font-familiy-2;
+	margin-top: 1rem;
+}

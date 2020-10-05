@@ -1,0 +1,40 @@
+$color_1: #272727;
+$background_color_1: #f1f1f1;
+
+
+body.interna{
+	footer{
+		margin-top: 100px;
+	}
+}
+
+body:not(.interna){
+	footer{
+		margin-top: -15px;
+	}
+}
+
+
+footer {
+	clear: both;
+	color: $color_1;
+	background-color: $background_color_1;
+	padding-bottom: 18.75rem;
+	font-size: 1rem;
+    text-align: left;
+	.redes-sociais {
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 4.375rem;
+		margin-top: 3.125rem;
+		margin-bottom: 4.375rem;
+		.image_component {
+			display: inline-block;
+			margin-right: 0.9375rem;
+		}
+	}
+	>section {
+		>section {
+			max-width: 1200px !important;
+		}
+	}
+}
