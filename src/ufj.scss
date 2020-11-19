@@ -1,23 +1,20 @@
-@import "v1/_reset.scss";
-@import "v1/_hamburger.scss";
-@import "v1/_fonts.scss";
+/* Estrutura geral*/
+@import "v2/_reset.scss";
+@import "v2/_hamburger.scss";
+@import "v2/_fonts.scss";
 @import "v2/_header.scss";
-@import "v2/_pages.scss";
-@import "v2/_front_news.scss";
 @import "v2/_footer.scss";
+@import "v2/_grid.scss";
+/* Home */
+@import "v2/_front_news.scss";
 @import "v2/_servicos.scss";
 @import "v2/_eventos.scss";
 @import "v2/_multimidia.scss";
-@import "v2/_resultados.scss";
 @import "v2/_localizacao.scss";
+/* Páginas internas */
+@import "v2/_pages.scss";
 @import "v2/_feedback.scss";
-@import "v2/_grid.scss";
-//@import "_front_news.scss";
-//@import "_front_events.scss";
-//@import "_page.scss";
-//@import "_footer.scss";
-
-
+@import "v2/_resultados.scss";
 
 :root {
   --main-color: #9c27b0;
@@ -55,7 +52,6 @@
   --gray-0: #121212;
 }
 
-
 $font_family_1: 'Roboto', sans-serif;
 $font_family_2: 'Raleway', sans-serif;
 $background_color_1: #fff;
@@ -90,7 +86,7 @@ a {
 		transition: 0.3s;
 	}
 }
-/*
+
 @media (max-width: 1120px) {
 		.event_list_component {
 			#events {

@@ -7,7 +7,7 @@
         margin: 0 auto;
         border-bottom: 1px dotted #ddd;
         padding-bottom: 30px;
-        font-family: "Raleway", sans-serif;
+        font-family: $font_family_2;
         text-align: center;
         font-weight: 900;
         a {
@@ -58,8 +58,8 @@
         grid-template-columns: 538px 538px;
         grid-gap: 30px;
         justify-content: center;
-        .clearfix{
-            display: none!important;
+        .clearfix {
+            display: none !important;
         }
         > li {
             padding-top: 134px;
@@ -273,57 +273,53 @@
     }
 }
 
-
 @media (max-width: 600px) {
-    .event_list_component #events>li {
-        width: 350px!important;
-        padding-left: 0!important;
+    .event_list_component #events > li {
+        width: 350px !important;
+        padding-left: 0 !important;
         padding-top: 106px;
-        margin-bottom: 40px
+        margin-bottom: 40px;
     }
-    .event_list_component #events>li article {
-        padding-top: 193px
+    .event_list_component #events > li article {
+        padding-top: 193px;
     }
-    .event_list_component #events>li .news-image {
-        left: 15px!important;
+    .event_list_component #events > li .news-image {
+        left: 15px !important;
         right: auto;
-        width: 320px!important;
-        height: 213.6px
+        width: 320px !important;
+        height: 213.6px;
     }
-    .event_list_component #events>li .event-dates {
+    .event_list_component #events > li .event-dates {
         top: 229px;
         left: 50%;
-        transform: translateX(-50%)
+        transform: translateX(-50%);
     }
-    .event_list_component #events>li:nth-child(4n+2),
-    .event_list_component #events>li:nth-child(4n+3) {
-        padding-left: 0
+    .event_list_component #events > li:nth-child(4n + 2),
+    .event_list_component #events > li:nth-child(4n + 3) {
+        padding-left: 0;
     }
-    .event_list_component #events>li:nth-child(4n+2) .news-image,
-    .event_list_component #events>li:nth-child(4n+3) .news-image {
+    .event_list_component #events > li:nth-child(4n + 2) .news-image,
+    .event_list_component #events > li:nth-child(4n + 3) .news-image {
         left: 15px;
         right: auto;
-        width: 320px!important;
-        height: 213.6px
+        width: 320px !important;
+        height: 213.6px;
     }
-    .event_list_component #events>li:nth-child(4n+2) .event-dates,
-    .event_list_component #events>li:nth-child(4n+3) .event-dates {
+    .event_list_component #events > li:nth-child(4n + 2) .event-dates,
+    .event_list_component #events > li:nth-child(4n + 3) .event-dates {
         left: 50%;
-        right: auto
+        right: auto;
     }
     .banner_list_component.card-banner .flex-direction-nav li a.flex-prev,
     .banner_list_component.card-banner .flex-direction-nav li a.flex-next {
         width: 42px;
         height: 42px;
-        background-size: 42px 42px
+        background-size: 42px 42px;
     }
     .banner_list_component.card-banner .flex-direction-nav li a.flex-prev {
-        left: -48px
+        left: -48px;
     }
     .banner_list_component.card-banner .flex-direction-nav li a.flex-next {
-        right: -48px
+        right: -48px;
     }
-
 }
-
-
